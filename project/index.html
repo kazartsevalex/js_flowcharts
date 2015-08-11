@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flowcharts</title>
+<!--[if lt IE 9]>
+<script src="js/lib/html5.js"></script>
+<![endif]-->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div id="all">
+    <section id="main-content" class="clearfix">
+        <div id="controls">
+            <select id="datatype">
+                <option value="json">JSON</option>
+                <option value="csv">CSV</option>
+            </select>
+            <button id="draw">Draw</button>
+        </div>
+    </section>
+</div>
+
+<div id="loading" class="hidden">
+    <div id="loader"></div>
+</div>   
+
+    <script src="js/lib/jquery-2.1.4.min.js"></script>
+    <script src="js/lib/paper-full.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
